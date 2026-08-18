@@ -1,0 +1,484 @@
+{
+    "scanner": {
+        "name": "Web Recon Scanner",
+        "version": "1.0",
+        "generated_at": "2026-08-17T10:42:41.705065+00:00"
+    },
+    "target": {
+        "original_url": "edmarc.work",
+        "normalized_url": "https://edmarc.work",
+        "scheme": "https",
+        "hostname": "edmarc.work",
+        "port": 443,
+        "ip_address": "172.67.203.47",
+        "dns_resolved": true
+    },
+    "phases": {
+        "phase_1": {
+            "target": {
+                "original_url": "edmarc.work",
+                "normalized_url": "https://edmarc.work",
+                "scheme": "https",
+                "hostname": "edmarc.work",
+                "port": 443,
+                "ip_address": "172.67.203.47",
+                "dns_resolved": true
+            }
+        },
+        "phase_2": {
+            "http": {
+                "requested_url": "http://edmarc.work",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://edmarc.work/",
+                "redirect_detected": true,
+                "redirect_count": 1,
+                "headers": {
+                    "Date": "Mon, 17 Aug 2026 10:41:07 GMT",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "Age": "0",
+                    "Cache-Control": "public,max-age=0,must-revalidate",
+                    "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tAK05XIBg1Y%2B1gVCQ34Z6SRN%2FXKiSHTCqAYdfJiHM5Ib3DIrV6MFyrCTqYsF7I2GxyKX8lODN%2B1WF0IEWSfSnwsWQ49T3yaGPtveZl0cgVEXoeHBjPMFH90kcOfI7Q%3D%3D\"}]}",
+                    "Server": "cloudflare",
+                    "strict-transport-security": "max-age=31536000",
+                    "x-nf-request-id": "01M07MZ3SW3CBBV8EJ8284ZJ7Z",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2c810851e46fdea-SIN",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html; charset=UTF-8",
+                "content_length": null,
+                "date": "Mon, 17 Aug 2026 10:41:07 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": true,
+                        "value": "max-age=31536000",
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            },
+            "https": {
+                "requested_url": "https://edmarc.work",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://edmarc.work/",
+                "redirect_detected": false,
+                "redirect_count": 0,
+                "headers": {
+                    "Date": "Mon, 17 Aug 2026 10:41:18 GMT",
+                    "Content-Type": "text/html; charset=UTF-8",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "Age": "1097",
+                    "Cache-Control": "public,max-age=0,must-revalidate",
+                    "cache-status": "\"Netlify Edge\"; hit; ttl=31534903",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=W98tKKCx29qP1teCdcbmvxr5fC0SbaQRaTwThLJCIqnagmc6bGfgk%2FunGRya8Ae7ibnJUXkAYETcwxxpptCIBEGY1jstTDVpJCg%2F1%2BWrWJM1twnrI8rb%2BrWy7kOXeg%3D%3D\"}]}",
+                    "Server": "cloudflare",
+                    "strict-transport-security": "max-age=31536000",
+                    "x-nf-request-id": "01M07MZEG2Z6RVW33E0VB3Y49P",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2c810c979705542-SIN",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html; charset=UTF-8",
+                "content_length": null,
+                "date": "Mon, 17 Aug 2026 10:41:18 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": true,
+                        "value": "max-age=31536000",
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            }
+        },
+        "phase_3": {
+            "whatweb": {
+                "available": false,
+                "executed": false,
+                "command": [
+                    "whatweb",
+                    "https://edmarc.work"
+                ],
+                "technologies": [],
+                "raw_output": "",
+                "error": "WhatWeb executable was not found in PATH.",
+                "return_code": null
+            },
+            "subdomains": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Users\\Admin\\Downloads\\subfinder_2.15.0_windows_amd64\\subfinder.EXE",
+                    "-d",
+                    "edmarc.work",
+                    "-silent"
+                ],
+                "subdomains": [
+                    "api.edmarc.work",
+                    "link.edmarc.work",
+                    "www.edmarc.work"
+                ],
+                "raw_output": "api.edmarc.work\nlink.edmarc.work\nwww.edmarc.work\n",
+                "error": null,
+                "return_code": 0
+            },
+            "nmap": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Program Files (x86)\\Nmap\\nmap.EXE",
+                    "-sV",
+                    "-Pn",
+                    "-p",
+                    "80,443",
+                    "edmarc.work"
+                ],
+                "ports": [
+                    {
+                        "port": 80,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "http",
+                        "version": "Cloudflare http proxy"
+                    },
+                    {
+                        "port": 443,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "ssl/http",
+                        "version": "Cloudflare http proxy"
+                    }
+                ],
+                "raw_output": "Starting Nmap 7.991 ( https://nmap.org ) at 2026-08-17 16:11 +0530\nNmap scan report for edmarc.work (104.21.69.27)\nHost is up (0.089s latency).\nOther addresses for edmarc.work (not scanned): 2606:4700:3031::6815:451b 2606:4700:3036::ac43:cb2f 172.67.203.47\n\nPORT    STATE SERVICE  VERSION\n80/tcp  open  http     Cloudflare http proxy\n443/tcp open  ssl/http Cloudflare http proxy\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 16.69 seconds\n\n[stderr]\nWarning: Hostname edmarc.work resolves to 4 IPs. Using 104.21.69.27.\n",
+                "error": null,
+                "return_code": 0
+            }
+        },
+        "phase_4": {
+            "homepage": {
+                "url": "https://edmarc.work",
+                "final_url": "https://edmarc.work/",
+                "status_code": 200,
+                "content_type": "text/html; charset=UTF-8",
+                "content_length": 571,
+                "html_file": "D:\\Scanner\\output\\edmarc.work\\homepage\\homepage.html",
+                "downloaded": true,
+                "error": null
+            },
+            "javascript": {
+                "urls": [
+                    "https://edmarc.work/assets/index-B2BIcqLv.js"
+                ],
+                "files": [
+                    {
+                        "url": "https://edmarc.work/assets/index-B2BIcqLv.js",
+                        "local_file": "D:\\Scanner\\output\\edmarc.work\\js\\index-B2BIcqLv_73ec6e11.js",
+                        "status_code": 200,
+                        "content_length": 1181126,
+                        "downloaded": true,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_5": {
+            "javascript_directory": "D:\\Scanner\\output\\edmarc.work\\js",
+            "analysis": {
+                "files_analyzed": 1,
+                "files_failed": 0,
+                "totals": {
+                    "innerHTML": 33,
+                    "eval()": 0,
+                    "location.href": 6,
+                    "localStorage": 36,
+                    "sessionStorage": 0,
+                    "document.cookie": 0
+                },
+                "files": [
+                    {
+                        "file": "D:\\Scanner\\output\\edmarc.work\\js\\index-B2BIcqLv_73ec6e11.js",
+                        "patterns": {
+                            "innerHTML": 33,
+                            "eval()": 0,
+                            "location.href": 6,
+                            "localStorage": 36,
+                            "sessionStorage": 0,
+                            "document.cookie": 0
+                        },
+                        "total_matches": 75,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_6": {
+            "files": [
+                {
+                    "path": "/.git/HEAD",
+                    "url": "https://edmarc.work/.git/HEAD",
+                    "status_code": 200,
+                    "content_type": "text/html; charset=UTF-8",
+                    "content_length": 571,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/.env",
+                    "url": "https://edmarc.work/.env",
+                    "status_code": 200,
+                    "content_type": "text/html; charset=UTF-8",
+                    "content_length": 571,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/robots.txt",
+                    "url": "https://edmarc.work/robots.txt",
+                    "status_code": 200,
+                    "content_type": "text/plain; charset=utf-8",
+                    "content_length": 2407,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/sitemap.xml",
+                    "url": "https://edmarc.work/sitemap.xml",
+                    "status_code": 200,
+                    "content_type": "text/html; charset=UTF-8",
+                    "content_length": 571,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/security.txt",
+                    "url": "https://edmarc.work/security.txt",
+                    "status_code": 200,
+                    "content_type": "text/html; charset=UTF-8",
+                    "content_length": 571,
+                    "accessible": true,
+                    "error": null
+                }
+            ]
+        },
+        "phase_7": {
+            "findings": [
+                {
+                    "id": "SEN-002",
+                    "title": "Potentially exposed Git metadata",
+                    "severity": "High",
+                    "category": "Sensitive File Exposure",
+                    "cwe": "CWE-538",
+                    "description": "The Git HEAD file is publicly accessible.",
+                    "evidence": "/.git/HEAD returned HTTP 200.",
+                    "impact": "Exposed Git metadata can disclose source-code repository information and may facilitate source exposure.",
+                    "remediation": "Remove the .git directory from the web root and deny web access to repository metadata.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "SEN-001",
+                    "title": "Potentially exposed .env file",
+                    "severity": "High",
+                    "category": "Sensitive File Exposure",
+                    "cwe": "CWE-200",
+                    "description": "The .env path returned HTTP 200 and may expose application configuration or secrets.",
+                    "evidence": "/.env returned HTTP 200.",
+                    "impact": "Exposed environment files can disclose credentials, tokens, database settings, or application secrets.",
+                    "remediation": "Remove the file from the web root and block access to environment files at the web server.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-001",
+                    "title": "robots.txt is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Information Disclosure",
+                    "cwe": "CWE-200",
+                    "description": "The robots.txt file is publicly accessible.",
+                    "evidence": "/robots.txt returned HTTP 200.",
+                    "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+                    "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-002",
+                    "title": "sitemap.xml is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Information Disclosure",
+                    "cwe": "CWE-200",
+                    "description": "The sitemap is publicly accessible.",
+                    "evidence": "/sitemap.xml returned HTTP 200.",
+                    "impact": "The sitemap can reveal application URLs and site structure.",
+                    "remediation": "Ensure that published URLs are intended to be publicly discoverable.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-003",
+                    "title": "security.txt is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Security Contact",
+                    "cwe": "CWE-200",
+                    "description": "A security.txt file is publicly accessible.",
+                    "evidence": "/security.txt returned HTTP 200.",
+                    "impact": "This is normally expected and can provide security-contact information.",
+                    "remediation": "Keep the security.txt information accurate and current.",
+                    "source": "Phase 6"
+                }
+            ],
+            "counts": {
+                "Critical": 0,
+                "High": 2,
+                "Medium": 0,
+                "Low": 0,
+                "Informational": 3
+            },
+            "total": 5
+        }
+    },
+    "findings": [
+        {
+            "id": "SEN-002",
+            "title": "Potentially exposed Git metadata",
+            "severity": "High",
+            "category": "Sensitive File Exposure",
+            "cwe": "CWE-538",
+            "description": "The Git HEAD file is publicly accessible.",
+            "evidence": "/.git/HEAD returned HTTP 200.",
+            "impact": "Exposed Git metadata can disclose source-code repository information and may facilitate source exposure.",
+            "remediation": "Remove the .git directory from the web root and deny web access to repository metadata.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "SEN-001",
+            "title": "Potentially exposed .env file",
+            "severity": "High",
+            "category": "Sensitive File Exposure",
+            "cwe": "CWE-200",
+            "description": "The .env path returned HTTP 200 and may expose application configuration or secrets.",
+            "evidence": "/.env returned HTTP 200.",
+            "impact": "Exposed environment files can disclose credentials, tokens, database settings, or application secrets.",
+            "remediation": "Remove the file from the web root and block access to environment files at the web server.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-001",
+            "title": "robots.txt is publicly accessible",
+            "severity": "Informational",
+            "category": "Information Disclosure",
+            "cwe": "CWE-200",
+            "description": "The robots.txt file is publicly accessible.",
+            "evidence": "/robots.txt returned HTTP 200.",
+            "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+            "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-002",
+            "title": "sitemap.xml is publicly accessible",
+            "severity": "Informational",
+            "category": "Information Disclosure",
+            "cwe": "CWE-200",
+            "description": "The sitemap is publicly accessible.",
+            "evidence": "/sitemap.xml returned HTTP 200.",
+            "impact": "The sitemap can reveal application URLs and site structure.",
+            "remediation": "Ensure that published URLs are intended to be publicly discoverable.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-003",
+            "title": "security.txt is publicly accessible",
+            "severity": "Informational",
+            "category": "Security Contact",
+            "cwe": "CWE-200",
+            "description": "A security.txt file is publicly accessible.",
+            "evidence": "/security.txt returned HTTP 200.",
+            "impact": "This is normally expected and can provide security-contact information.",
+            "remediation": "Keep the security.txt information accurate and current.",
+            "source": "Phase 6"
+        }
+    ],
+    "finding_summary": {
+        "total": 5,
+        "critical": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0,
+        "informational": 3
+    }
+}

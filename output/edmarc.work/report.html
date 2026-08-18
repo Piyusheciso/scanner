@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>
+    Web Recon Scanner - edmarc.work
+</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+.container {
+    width: 92%;
+    max-width: 1250px;
+    margin: 30px auto;
+}
+
+.header {
+    background: #111827;
+    color: white;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.header h1 {
+    margin: 0 0 8px 0;
+}
+
+.header p {
+    margin: 4px 0;
+}
+
+.card {
+    background: white;
+    margin-top: 20px;
+    padding: 22px;
+    border-radius: 10px;
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+th {
+    background: #f9fafb;
+}
+
+pre {
+    background: #111827;
+    color: #e5e7eb;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+}
+
+.stat {
+    background: #f9fafb;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat .number {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.critical {
+    color: #991b1b;
+}
+
+.high {
+    color: #b91c1c;
+}
+
+.medium {
+    color: #b45309;
+}
+
+.low {
+    color: #0369a1;
+}
+
+.info {
+    color: #374151;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 8px;
+    background: #e5e7eb;
+}
+
+.finding {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 15px;
+}
+
+.finding-header {
+    margin-bottom: 15px;
+}
+
+.finding-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.empty {
+    padding: 15px;
+    background: #f9fafb;
+    border-radius: 6px;
+}
+
+.footer {
+    text-align: center;
+    color: #6b7280;
+    padding: 30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>
+            Web Recon Scanner
+        </h1>
+
+        <p>
+            VAPT Reconnaissance Report
+        </p>
+
+        <p>
+            Target:
+            <strong>
+                https://edmarc.work
+            </strong>
+        </p>
+
+        <p>
+            Hostname:
+            edmarc.work
+        </p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Finding Summary
+        </h2>
+
+        <div class="summary">
+
+            <div class="stat">
+                <span class="number">
+                    5
+                </span>
+                Total
+            </div>
+
+            <div class="stat critical">
+                <span class="number">
+                    0
+                </span>
+                Critical
+            </div>
+
+            <div class="stat high">
+                <span class="number">
+                    2
+                </span>
+                High
+            </div>
+
+            <div class="stat medium">
+                <span class="number">
+                    0
+                </span>
+                Medium
+            </div>
+
+            <div class="stat low">
+                <span class="number">
+                    0
+                </span>
+                Low
+            </div>
+
+            <div class="stat info">
+                <span class="number">
+                    3
+                </span>
+                Informational
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Target Information
+        </h2>
+
+        <table>
+
+            <tr>
+                <th>Normalized URL</th>
+                <td>
+                    https://edmarc.work
+                </td>
+            </tr>
+
+            <tr>
+                <th>Hostname</th>
+                <td>
+                    edmarc.work
+                </td>
+            </tr>
+
+            <tr>
+                <th>Scheme</th>
+                <td>
+                    https
+                </td>
+            </tr>
+
+            <tr>
+                <th>Port</th>
+                <td>
+                    443
+                </td>
+            </tr>
+
+            <tr>
+                <th>IP Address</th>
+                <td>
+                    172.67.203.47
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            HTTP / HTTPS Reconnaissance
+        </h2>
+
+        
+    <table>
+        <thead>
+            <tr>
+                <th>Protocol</th>
+                <th>Status</th>
+                <th>Final URL</th>
+                <th>Redirects</th>
+                <th>Server</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Security Headers
+        </h2>
+
+        <p>No reachable endpoint.</p>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Technology & Network Reconnaissance
+        </h2>
+
+        <h3>Technologies</h3><p>None detected.</p><h3>Subdomains</h3><ul><li>api.edmarc.work</li><li>link.edmarc.work</li><li>www.edmarc.work</li></ul><h3>Open Ports</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Port</th>
+                        <th>Protocol</th>
+                        <th>Service</th>
+                        <th>Version</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+            <tr>
+                <td>80</td>
+                <td>tcp</td>
+                <td>http</td>
+                <td>Cloudflare http proxy</td>
+            </tr>
+            
+            <tr>
+                <td>443</td>
+                <td>tcp</td>
+                <td>ssl/http</td>
+                <td>Cloudflare http proxy</td>
+            </tr>
+            
+                </tbody>
+            </table>
+            
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Homepage & JavaScript Discovery
+        </h2>
+
+        
+    <h3>Homepage</h3>
+
+    <table>
+        <tr>
+            <th>Status</th>
+            <td>200</td>
+        </tr>
+        <tr>
+            <th>Final URL</th>
+            <td>https://edmarc.work/</td>
+        </tr>
+        <tr>
+            <th>Local File</th>
+            <td>D:\Scanner\output\edmarc.work\homepage\homepage.html</td>
+        </tr>
+    </table>
+
+    <h3>JavaScript Files</h3>
+
+    <ul><li>https://edmarc.work/assets/index-B2BIcqLv.js</li></ul>
+    
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            JavaScript Analysis
+        </h2>
+
+        
+    <p>
+        Files analyzed:
+        <strong>1</strong>
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pattern</th>
+                <th>Occurrences</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>innerHTML</td>
+                <td>33</td>
+            </tr>
+            
+            <tr>
+                <td>eval()</td>
+                <td>0</td>
+            </tr>
+            
+            <tr>
+                <td>location.href</td>
+                <td>6</td>
+            </tr>
+            
+            <tr>
+                <td>localStorage</td>
+                <td>36</td>
+            </tr>
+            
+            <tr>
+                <td>sessionStorage</td>
+                <td>0</td>
+            </tr>
+            
+            <tr>
+                <td>document.cookie</td>
+                <td>0</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Sensitive Files
+        </h2>
+
+        
+    <table>
+        <thead>
+            <tr>
+                <th>Path</th>
+                <th>Status</th>
+                <th>Content-Type</th>
+                <th>Size</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+                <td>/.git/HEAD</td>
+                <td>&#9989; 200</td>
+                <td>text/html; charset=UTF-8</td>
+                <td>571</td>
+            </tr>
+            
+            <tr>
+                <td>/.env</td>
+                <td>&#9989; 200</td>
+                <td>text/html; charset=UTF-8</td>
+                <td>571</td>
+            </tr>
+            
+            <tr>
+                <td>/robots.txt</td>
+                <td>&#9989; 200</td>
+                <td>text/plain; charset=utf-8</td>
+                <td>2407</td>
+            </tr>
+            
+            <tr>
+                <td>/sitemap.xml</td>
+                <td>&#9989; 200</td>
+                <td>text/html; charset=UTF-8</td>
+                <td>571</td>
+            </tr>
+            
+            <tr>
+                <td>/security.txt</td>
+                <td>&#9989; 200</td>
+                <td>text/html; charset=UTF-8</td>
+                <td>571</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>
+            Findings
+        </h2>
+
+        
+            <div class="finding">
+                <div class="finding-header">
+                    <span class="badge high">
+                        High
+                    </span>
+
+                    <strong>
+                        SEN-002
+                        -
+                        Potentially exposed Git metadata
+                    </strong>
+                </div>
+
+                <div class="finding-grid">
+                    <div>
+                        <b>Category</b>
+                        <p>Sensitive File Exposure</p>
+                    </div>
+
+                    <div>
+                        <b>CWE</b>
+                        <p>CWE-538</p>
+                    </div>
+
+                    <div>
+                        <b>Source</b>
+                        <p>Phase 6</p>
+                    </div>
+                </div>
+
+                <b>Description</b>
+                <p>The Git HEAD file is publicly accessible.</p>
+
+                <b>Evidence</b>
+                <pre>/.git/HEAD returned HTTP 200.</pre>
+
+                <b>Impact</b>
+                <p>Exposed Git metadata can disclose source-code repository information and may facilitate source exposure.</p>
+
+                <b>Remediation</b>
+                <p>Remove the .git directory from the web root and deny web access to repository metadata.</p>
+            </div>
+            
+
+            <div class="finding">
+                <div class="finding-header">
+                    <span class="badge high">
+                        High
+                    </span>
+
+                    <strong>
+                        SEN-001
+                        -
+                        Potentially exposed .env file
+                    </strong>
+                </div>
+
+                <div class="finding-grid">
+                    <div>
+                        <b>Category</b>
+                        <p>Sensitive File Exposure</p>
+                    </div>
+
+                    <div>
+                        <b>CWE</b>
+                        <p>CWE-200</p>
+                    </div>
+
+                    <div>
+                        <b>Source</b>
+                        <p>Phase 6</p>
+                    </div>
+                </div>
+
+                <b>Description</b>
+                <p>The .env path returned HTTP 200 and may expose application configuration or secrets.</p>
+
+                <b>Evidence</b>
+                <pre>/.env returned HTTP 200.</pre>
+
+                <b>Impact</b>
+                <p>Exposed environment files can disclose credentials, tokens, database settings, or application secrets.</p>
+
+                <b>Remediation</b>
+                <p>Remove the file from the web root and block access to environment files at the web server.</p>
+            </div>
+            
+
+            <div class="finding">
+                <div class="finding-header">
+                    <span class="badge info">
+                        Informational
+                    </span>
+
+                    <strong>
+                        INFO-001
+                        -
+                        robots.txt is publicly accessible
+                    </strong>
+                </div>
+
+                <div class="finding-grid">
+                    <div>
+                        <b>Category</b>
+                        <p>Information Disclosure</p>
+                    </div>
+
+                    <div>
+                        <b>CWE</b>
+                        <p>CWE-200</p>
+                    </div>
+
+                    <div>
+                        <b>Source</b>
+                        <p>Phase 6</p>
+                    </div>
+                </div>
+
+                <b>Description</b>
+                <p>The robots.txt file is publicly accessible.</p>
+
+                <b>Evidence</b>
+                <pre>/robots.txt returned HTTP 200.</pre>
+
+                <b>Impact</b>
+                <p>robots.txt may disclose paths that the site owner does not want indexed.</p>
+
+                <b>Remediation</b>
+                <p>Review entries in robots.txt and avoid using it as an access-control mechanism.</p>
+            </div>
+            
+
+            <div class="finding">
+                <div class="finding-header">
+                    <span class="badge info">
+                        Informational
+                    </span>
+
+                    <strong>
+                        INFO-002
+                        -
+                        sitemap.xml is publicly accessible
+                    </strong>
+                </div>
+
+                <div class="finding-grid">
+                    <div>
+                        <b>Category</b>
+                        <p>Information Disclosure</p>
+                    </div>
+
+                    <div>
+                        <b>CWE</b>
+                        <p>CWE-200</p>
+                    </div>
+
+                    <div>
+                        <b>Source</b>
+                        <p>Phase 6</p>
+                    </div>
+                </div>
+
+                <b>Description</b>
+                <p>The sitemap is publicly accessible.</p>
+
+                <b>Evidence</b>
+                <pre>/sitemap.xml returned HTTP 200.</pre>
+
+                <b>Impact</b>
+                <p>The sitemap can reveal application URLs and site structure.</p>
+
+                <b>Remediation</b>
+                <p>Ensure that published URLs are intended to be publicly discoverable.</p>
+            </div>
+            
+
+            <div class="finding">
+                <div class="finding-header">
+                    <span class="badge info">
+                        Informational
+                    </span>
+
+                    <strong>
+                        INFO-003
+                        -
+                        security.txt is publicly accessible
+                    </strong>
+                </div>
+
+                <div class="finding-grid">
+                    <div>
+                        <b>Category</b>
+                        <p>Security Contact</p>
+                    </div>
+
+                    <div>
+                        <b>CWE</b>
+                        <p>CWE-200</p>
+                    </div>
+
+                    <div>
+                        <b>Source</b>
+                        <p>Phase 6</p>
+                    </div>
+                </div>
+
+                <b>Description</b>
+                <p>A security.txt file is publicly accessible.</p>
+
+                <b>Evidence</b>
+                <pre>/security.txt returned HTTP 200.</pre>
+
+                <b>Impact</b>
+                <p>This is normally expected and can provide security-contact information.</p>
+
+                <b>Remediation</b>
+                <p>Keep the security.txt information accurate and current.</p>
+            </div>
+            
+
+    </div>
+
+
+    <div class="footer">
+
+        Generated by Web Recon Scanner
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,308 @@
+2026-08-17 12:58:23,793 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 12:58:23,803 | INFO | Target supplied: ivorysec.com
+2026-08-17 12:58:23,836 | INFO | Target validated successfully: https://ivorysec.com
+2026-08-17 12:58:23,837 | INFO | Output directory created: D:\Scanner\output\ivorysec.com
+2026-08-17 12:58:23,837 | INFO | Log file: D:\Scanner\logs\scanner.log
+2026-08-17 12:58:23,837 | INFO | Target data: {'original_url': 'ivorysec.com', 'normalized_url': 'https://ivorysec.com', 'scheme': 'https', 'hostname': 'ivorysec.com', 'port': 443, 'ip_address': '104.21.37.185', 'dns_resolved': True}
+2026-08-17 12:58:23,838 | INFO | Phase 1 completed successfully.
+2026-08-17 13:59:19,888 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 13:59:19,889 | INFO | Target supplied: ivorysec.com
+2026-08-17 13:59:19,930 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 13:59:19,931 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 13:59:35,878 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 13:59:35,880 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 13:59:35,886 | INFO | Phase 2 completed.
+2026-08-17 13:59:35,888 | INFO | Scanner completed successfully.
+2026-08-17 14:42:47,091 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 14:42:47,093 | INFO | Target supplied: ivorysec.com
+2026-08-17 14:42:47,127 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 14:42:47,128 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 14:43:02,405 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 14:43:02,405 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 14:43:02,406 | INFO | Phase 2 completed.
+2026-08-17 14:43:02,406 | INFO | Starting WhatWeb scan.
+2026-08-17 14:43:02,408 | INFO | Starting Subfinder scan.
+2026-08-17 14:43:02,410 | INFO | Starting Nmap scan.
+2026-08-17 14:43:02,413 | INFO | Phase 3 completed successfully.
+2026-08-17 14:43:02,413 | INFO | Scanner completed successfully.
+2026-08-17 14:51:01,814 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 14:51:20,041 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 14:51:20,042 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 14:51:20,089 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 14:51:20,090 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 14:51:36,087 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 14:51:36,089 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 14:51:36,093 | INFO | Phase 2 completed.
+2026-08-17 14:51:36,095 | INFO | Starting WhatWeb scan.
+2026-08-17 14:51:36,104 | INFO | Starting Subfinder scan.
+2026-08-17 14:52:07,560 | INFO | Starting Nmap scan.
+2026-08-17 14:52:30,742 | INFO | Phase 3 completed successfully.
+2026-08-17 14:52:30,742 | INFO | Scanner completed successfully.
+2026-08-17 14:59:36,269 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 14:59:36,283 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 14:59:36,333 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 14:59:36,334 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 14:59:52,076 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 14:59:52,077 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 14:59:52,081 | INFO | Phase 2 completed.
+2026-08-17 14:59:52,082 | INFO | Starting WhatWeb scan.
+2026-08-17 14:59:52,091 | INFO | Starting Subfinder scan.
+2026-08-17 14:59:56,569 | INFO | Starting Nmap scan.
+2026-08-17 15:00:14,436 | INFO | Phase 3 completed successfully.
+2026-08-17 15:00:27,155 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:00:27,157 | INFO | Scanner completed successfully.
+2026-08-17 15:13:20,736 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:13:20,737 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:13:20,773 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:13:20,774 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:13:36,596 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:13:36,597 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:13:36,600 | INFO | Phase 2 completed.
+2026-08-17 15:13:36,601 | INFO | Starting WhatWeb scan.
+2026-08-17 15:13:36,606 | INFO | Starting Subfinder scan.
+2026-08-17 15:14:07,741 | INFO | Starting Nmap scan.
+2026-08-17 15:14:25,490 | INFO | Phase 3 completed successfully.
+2026-08-17 15:14:36,685 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:14:37,045 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:14:37,045 | INFO | Scanner completed successfully.
+2026-08-17 15:19:32,688 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:19:32,689 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:19:32,714 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:19:32,714 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:19:48,989 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:19:48,990 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:19:48,994 | INFO | Phase 2 completed.
+2026-08-17 15:19:48,996 | INFO | Starting WhatWeb scan.
+2026-08-17 15:19:49,004 | INFO | Starting Subfinder scan.
+2026-08-17 15:20:05,719 | INFO | Starting Nmap scan.
+2026-08-17 15:20:27,329 | INFO | Phase 3 completed successfully.
+2026-08-17 15:20:38,552 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:20:38,887 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:21:18,935 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:21:18,937 | INFO | Scanner completed successfully.
+2026-08-17 15:27:46,507 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:27:46,508 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:27:46,537 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:27:46,537 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:28:01,645 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:28:01,646 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:28:01,647 | INFO | Phase 2 completed.
+2026-08-17 15:28:01,648 | INFO | Starting WhatWeb scan.
+2026-08-17 15:28:01,650 | INFO | Starting Subfinder scan.
+2026-08-17 15:28:07,446 | INFO | Starting Nmap scan.
+2026-08-17 15:28:30,069 | INFO | Phase 3 completed successfully.
+2026-08-17 15:28:39,564 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:28:39,885 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:29:05,812 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:29:05,814 | INFO | Finding engine generated 4 findings.
+2026-08-17 15:29:05,818 | INFO | Phase 7 completed: findings=4
+2026-08-17 15:29:05,819 | INFO | Scanner completed successfully.
+2026-08-17 15:31:58,639 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:31:58,662 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:31:58,692 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:31:58,692 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:32:21,396 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:32:21,397 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:32:21,401 | INFO | Phase 2 completed.
+2026-08-17 15:32:21,402 | INFO | Starting WhatWeb scan.
+2026-08-17 15:32:21,410 | INFO | Starting Subfinder scan.
+2026-08-17 15:32:25,011 | INFO | Starting Nmap scan.
+2026-08-17 15:32:46,818 | INFO | Phase 3 completed successfully.
+2026-08-17 15:33:00,712 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:33:01,038 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:33:37,393 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:33:37,394 | INFO | Finding engine generated 4 findings.
+2026-08-17 15:33:37,397 | INFO | Phase 7 completed: findings=4
+2026-08-17 15:33:37,398 | INFO | Scanner completed successfully.
+2026-08-17 15:42:25,541 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:42:25,542 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:42:25,581 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:42:25,581 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:42:40,476 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:42:40,477 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:42:40,480 | INFO | Phase 2 completed.
+2026-08-17 15:42:40,482 | INFO | Starting WhatWeb scan.
+2026-08-17 15:42:40,490 | INFO | Starting Subfinder scan.
+2026-08-17 15:42:57,262 | INFO | Starting Nmap scan.
+2026-08-17 15:43:15,046 | INFO | Phase 3 completed successfully.
+2026-08-17 15:43:24,497 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:43:24,804 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:43:48,857 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:43:48,858 | INFO | Finding engine generated 4 findings.
+2026-08-17 15:43:48,863 | INFO | Phase 7 completed: findings=4
+2026-08-17 15:43:48,869 | ERROR | JSON report generation failed.
+Traceback (most recent call last):
+  File "D:\Scanner\scanner.py", line 1800, in run_phase_8
+    json_file = generate_json_report(
+        target,
+    ...<2 lines>...
+        target_output,
+    )
+  File "D:\Scanner\reporting\json_report.py", line 124, in generate_json_report
+    json.dumps(
+    ~~~~~~~~~~^
+        report_data,
+        ^^^^^^^^^^^^
+        indent=4,
+        ^^^^^^^^^
+        ensure_ascii=False,
+        ^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type HTTPReconResult is not JSON serializable
+when serializing dict item 'http'
+when serializing dict item 'phase_2'
+when serializing dict item 'phases'
+2026-08-17 15:43:48,941 | INFO | Phase 8 completed.
+2026-08-17 15:43:48,941 | INFO | Scanner completed successfully.
+2026-08-17 15:44:41,880 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:44:41,881 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:44:41,917 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:44:41,918 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:45:00,133 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:45:00,135 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:45:00,138 | INFO | Phase 2 completed.
+2026-08-17 15:45:00,140 | INFO | Starting WhatWeb scan.
+2026-08-17 15:45:00,147 | INFO | Starting Subfinder scan.
+2026-08-17 15:45:31,430 | INFO | Starting Nmap scan.
+2026-08-17 15:45:50,252 | INFO | Phase 3 completed successfully.
+2026-08-17 15:46:00,163 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:46:00,505 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:46:30,379 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:46:30,382 | INFO | Finding engine generated 4 findings.
+2026-08-17 15:46:30,386 | INFO | Phase 7 completed: findings=4
+2026-08-17 15:46:30,390 | ERROR | JSON report generation failed.
+Traceback (most recent call last):
+  File "D:\Scanner\scanner.py", line 1800, in run_phase_8
+    json_file = generate_json_report(
+        target,
+    ...<2 lines>...
+        target_output,
+    )
+  File "D:\Scanner\reporting\json_report.py", line 124, in generate_json_report
+    json.dumps(
+    ~~~~~~~~~~^
+        report_data,
+        ^^^^^^^^^^^^
+        indent=4,
+        ^^^^^^^^^
+        ensure_ascii=False,
+        ^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "C:\Users\Admin\AppData\Local\Python\pythoncore-3.14-64\Lib\json\encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type HTTPReconResult is not JSON serializable
+when serializing dict item 'http'
+when serializing dict item 'phase_2'
+when serializing dict item 'phases'
+2026-08-17 15:46:30,398 | INFO | Phase 8 completed.
+2026-08-17 15:46:30,398 | INFO | Scanner completed successfully.
+2026-08-17 15:51:05,587 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:51:05,588 | INFO | Target supplied: https://ivorysec.com
+2026-08-17 15:51:05,628 | INFO | Phase 1 completed: https://ivorysec.com
+2026-08-17 15:51:05,628 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 15:51:21,301 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 15:51:21,302 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 15:51:21,306 | INFO | Phase 2 completed.
+2026-08-17 15:51:21,308 | INFO | Starting WhatWeb scan.
+2026-08-17 15:51:21,316 | INFO | Starting Subfinder scan.
+2026-08-17 15:51:24,475 | INFO | Starting Nmap scan.
+2026-08-17 15:51:48,926 | INFO | Phase 3 completed successfully.
+2026-08-17 15:52:07,452 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:52:07,795 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:52:36,232 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:52:36,234 | INFO | Finding engine generated 4 findings.
+2026-08-17 15:52:36,238 | INFO | Phase 7 completed: findings=4
+2026-08-17 15:52:36,252 | INFO | Phase 8 completed.
+2026-08-17 15:52:36,253 | INFO | Scanner completed successfully.
+2026-08-17 15:52:47,355 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:52:47,356 | INFO | Target supplied: https://edmarc.work
+2026-08-17 15:52:47,446 | INFO | Phase 1 completed: https://edmarc.work
+2026-08-17 15:52:47,447 | INFO | Output directory: D:\Scanner\output\edmarc.work
+2026-08-17 15:53:02,187 | INFO | http: reachable=True status=200 final_url=https://edmarc.work/ redirects=1
+2026-08-17 15:53:02,188 | INFO | https: reachable=True status=200 final_url=https://edmarc.work/ redirects=0
+2026-08-17 15:53:02,192 | INFO | Phase 2 completed.
+2026-08-17 15:53:02,193 | INFO | Starting WhatWeb scan.
+2026-08-17 15:53:02,201 | INFO | Starting Subfinder scan.
+2026-08-17 15:53:05,259 | INFO | Starting Nmap scan.
+2026-08-17 15:53:23,776 | INFO | Phase 3 completed successfully.
+2026-08-17 15:53:42,059 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:53:43,255 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:54:07,670 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:54:07,671 | INFO | Finding engine generated 5 findings.
+2026-08-17 15:54:07,675 | INFO | Phase 7 completed: findings=5
+2026-08-17 15:54:07,694 | INFO | Phase 8 completed.
+2026-08-17 15:54:07,695 | INFO | Scanner completed successfully.
+2026-08-17 15:57:01,508 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 15:57:01,509 | INFO | Target supplied: https://edmarc.work
+2026-08-17 15:57:01,513 | INFO | Step 1 completed: https://edmarc.work
+2026-08-17 15:57:01,514 | INFO | Output directory: D:\Scanner\output\edmarc.work
+2026-08-17 15:57:18,659 | INFO | http: reachable=True status=200 final_url=https://edmarc.work/ redirects=1
+2026-08-17 15:57:18,661 | INFO | https: reachable=True status=200 final_url=https://edmarc.work/ redirects=0
+2026-08-17 15:57:18,665 | INFO | Step 2 completed.
+2026-08-17 15:57:18,666 | INFO | Starting WhatWeb scan.
+2026-08-17 15:57:18,674 | INFO | Starting Subfinder scan.
+2026-08-17 15:57:43,264 | INFO | Starting Nmap scan.
+2026-08-17 15:58:00,600 | INFO | Phase 3 completed successfully.
+2026-08-17 15:58:10,679 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 15:58:11,829 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 15:58:35,511 | INFO | Phase 6 completed: checked=5
+2026-08-17 15:58:35,512 | INFO | Finding engine generated 5 findings.
+2026-08-17 15:58:35,517 | INFO | Phase 7 completed: findings=5
+2026-08-17 15:58:35,528 | INFO | Phase 8 completed.
+2026-08-17 15:58:35,530 | INFO | Scanner completed successfully.
+2026-08-17 16:07:59,385 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 16:07:59,386 | INFO | Target supplied: ivorysec.com
+2026-08-17 16:07:59,421 | INFO | Step 1 completed: https://ivorysec.com
+2026-08-17 16:07:59,421 | INFO | Output directory: D:\Scanner\output\ivorysec.com
+2026-08-17 16:08:18,317 | INFO | http: reachable=True status=200 final_url=https://ivorysec.com/ redirects=1
+2026-08-17 16:08:18,318 | INFO | https: reachable=True status=200 final_url=https://ivorysec.com/ redirects=0
+2026-08-17 16:08:18,322 | INFO | Step 2 completed.
+2026-08-17 16:08:18,324 | INFO | Starting WhatWeb scan.
+2026-08-17 16:08:18,336 | INFO | Starting Subfinder scan.
+2026-08-17 16:08:24,568 | INFO | Starting Nmap scan.
+2026-08-17 16:08:47,655 | INFO | Phase 3 completed successfully.
+2026-08-17 16:08:57,748 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 16:08:58,078 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 16:09:22,966 | INFO | Phase 6 completed: checked=5
+2026-08-17 16:09:22,968 | INFO | Finding engine generated 4 findings.
+2026-08-17 16:09:22,973 | INFO | Phase 7 completed: findings=4
+2026-08-17 16:09:22,988 | INFO | Phase 8 completed.
+2026-08-17 16:09:22,990 | INFO | Scanner completed successfully.
+2026-08-17 16:10:58,990 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-17 16:10:58,991 | INFO | Target supplied: edmarc.work
+2026-08-17 16:10:59,019 | INFO | Step 1 completed: https://edmarc.work
+2026-08-17 16:10:59,019 | INFO | Output directory: D:\Scanner\output\edmarc.work
+2026-08-17 16:11:18,932 | INFO | http: reachable=True status=200 final_url=https://edmarc.work/ redirects=1
+2026-08-17 16:11:18,934 | INFO | https: reachable=True status=200 final_url=https://edmarc.work/ redirects=0
+2026-08-17 16:11:18,938 | INFO | Step 2 completed.
+2026-08-17 16:11:18,940 | INFO | Starting WhatWeb scan.
+2026-08-17 16:11:18,948 | INFO | Starting Subfinder scan.
+2026-08-17 16:11:49,967 | INFO | Starting Nmap scan.
+2026-08-17 16:12:06,766 | INFO | Phase 3 completed successfully.
+2026-08-17 16:12:16,859 | INFO | Phase 4 completed: JS URLs=1 downloaded=1
+2026-08-17 16:12:18,011 | INFO | Phase 5 completed: files=1 failed=0
+2026-08-17 16:12:41,696 | INFO | Phase 6 completed: checked=5
+2026-08-17 16:12:41,698 | INFO | Finding engine generated 5 findings.
+2026-08-17 16:12:41,703 | INFO | Phase 7 completed: findings=5
+2026-08-17 16:12:41,711 | INFO | Phase 8 completed.
+2026-08-17 16:12:41,712 | INFO | Scanner completed successfully.

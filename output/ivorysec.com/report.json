@@ -1,0 +1,459 @@
+{
+    "scanner": {
+        "name": "Web Recon Scanner",
+        "version": "1.0",
+        "generated_at": "2026-08-17T10:39:22.976208+00:00"
+    },
+    "target": {
+        "original_url": "ivorysec.com",
+        "normalized_url": "https://ivorysec.com",
+        "scheme": "https",
+        "hostname": "ivorysec.com",
+        "port": 443,
+        "ip_address": "172.67.212.77",
+        "dns_resolved": true
+    },
+    "phases": {
+        "phase_1": {
+            "target": {
+                "original_url": "ivorysec.com",
+                "normalized_url": "https://ivorysec.com",
+                "scheme": "https",
+                "hostname": "ivorysec.com",
+                "port": 443,
+                "ip_address": "172.67.212.77",
+                "dns_resolved": true
+            }
+        },
+        "phase_2": {
+            "http": {
+                "requested_url": "http://ivorysec.com",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://ivorysec.com/",
+                "redirect_detected": true,
+                "redirect_count": 1,
+                "headers": {
+                    "Date": "Mon, 17 Aug 2026 10:38:12 GMT",
+                    "Content-Type": "text/html",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "last-modified": "Fri, 07 Aug 2026 10:52:31 GMT",
+                    "Cache-Control": "max-age=600",
+                    "expires": "Mon, 17 Aug 2026 10:48:12 GMT",
+                    "vary": "Accept-Encoding,User-Agent",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yzqfzVPY4LO91A0us3AA7HCFkAq%2FWiPdrFdKae1vjVrHadWBHnBgaWH%2FF%2FSxUdPrVOFge8w2Y5Oq6r4sSJBWOmezKkhNk68viNPHEKbKkZHb0m3jwppjSe7U27sY8bM%3D\"}]}",
+                    "Server": "cloudflare",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2c80c3f1df92495-BOS",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html",
+                "content_length": null,
+                "date": "Mon, 17 Aug 2026 10:38:12 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": false,
+                        "value": null,
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            },
+            "https": {
+                "requested_url": "https://ivorysec.com",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://ivorysec.com/",
+                "redirect_detected": false,
+                "redirect_count": 0,
+                "headers": {
+                    "Date": "Mon, 17 Aug 2026 10:38:17 GMT",
+                    "Content-Type": "text/html",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "last-modified": "Fri, 07 Aug 2026 10:52:31 GMT",
+                    "Cache-Control": "max-age=600",
+                    "expires": "Mon, 17 Aug 2026 10:48:17 GMT",
+                    "vary": "Accept-Encoding,User-Agent",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5N9cocLfG%2F%2FUdOIl2sSKqcZ9Axo4j0T8bk6ETBdh1eLHafOVSgcRbwY4SGs9%2BiLZd2gNZhmT%2Fm4SUBn07EcM%2BT8Z%2B3O0G6loIAjmnELTIrmbRMMJpbi7I9mU7rIG%2FPo%3D\"}]}",
+                    "Server": "cloudflare",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2c80c5dd84681ef-SIN",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html",
+                "content_length": null,
+                "date": "Mon, 17 Aug 2026 10:38:17 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": false,
+                        "value": null,
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            }
+        },
+        "phase_3": {
+            "whatweb": {
+                "available": false,
+                "executed": false,
+                "command": [
+                    "whatweb",
+                    "https://ivorysec.com"
+                ],
+                "technologies": [],
+                "raw_output": "",
+                "error": "WhatWeb executable was not found in PATH.",
+                "return_code": null
+            },
+            "subdomains": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Users\\Admin\\Downloads\\subfinder_2.15.0_windows_amd64\\subfinder.EXE",
+                    "-d",
+                    "ivorysec.com",
+                    "-silent"
+                ],
+                "subdomains": [
+                    "cybermonitor.ivorysec.com",
+                    "dmarc.ivorysec.com",
+                    "docs.ivorysec.com",
+                    "www.ivorysec.com"
+                ],
+                "raw_output": "docs.ivorysec.com\nwww.ivorysec.com\ncybermonitor.ivorysec.com\ndmarc.ivorysec.com\n",
+                "error": null,
+                "return_code": 0
+            },
+            "nmap": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Program Files (x86)\\Nmap\\nmap.EXE",
+                    "-sV",
+                    "-Pn",
+                    "-p",
+                    "80,443",
+                    "ivorysec.com"
+                ],
+                "ports": [
+                    {
+                        "port": 80,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "http",
+                        "version": "Cloudflare http proxy"
+                    },
+                    {
+                        "port": 443,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "ssl/http",
+                        "version": "Cloudflare http proxy"
+                    }
+                ],
+                "raw_output": "Starting Nmap 7.991 ( https://nmap.org ) at 2026-08-17 16:08 +0530\nNmap scan report for ivorysec.com (104.21.37.185)\nHost is up (0.28s latency).\nOther addresses for ivorysec.com (not scanned): 2606:4700:3033::ac43:d44d 2606:4700:3031::6815:25b9 172.67.212.77\n\nPORT    STATE SERVICE  VERSION\n80/tcp  open  http     Cloudflare http proxy\n443/tcp open  ssl/http Cloudflare http proxy\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 22.95 seconds\n\n[stderr]\nWarning: Hostname ivorysec.com resolves to 4 IPs. Using 104.21.37.185.\n",
+                "error": null,
+                "return_code": 0
+            }
+        },
+        "phase_4": {
+            "homepage": {
+                "url": "https://ivorysec.com",
+                "final_url": "https://ivorysec.com/",
+                "status_code": 200,
+                "content_type": "text/html",
+                "content_length": 1359,
+                "html_file": "D:\\Scanner\\output\\ivorysec.com\\homepage\\homepage.html",
+                "downloaded": true,
+                "error": null
+            },
+            "javascript": {
+                "urls": [
+                    "https://ivorysec.com/assets/index-hqrD0Gqa.js"
+                ],
+                "files": [
+                    {
+                        "url": "https://ivorysec.com/assets/index-hqrD0Gqa.js",
+                        "local_file": "D:\\Scanner\\output\\ivorysec.com\\js\\index-hqrD0Gqa_86a3e46a.js",
+                        "status_code": 200,
+                        "content_length": 1025651,
+                        "downloaded": true,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_5": {
+            "javascript_directory": "D:\\Scanner\\output\\ivorysec.com\\js",
+            "analysis": {
+                "files_analyzed": 1,
+                "files_failed": 0,
+                "totals": {
+                    "innerHTML": 17,
+                    "eval()": 0,
+                    "location.href": 1,
+                    "localStorage": 0,
+                    "sessionStorage": 0,
+                    "document.cookie": 0
+                },
+                "files": [
+                    {
+                        "file": "D:\\Scanner\\output\\ivorysec.com\\js\\index-hqrD0Gqa_86a3e46a.js",
+                        "patterns": {
+                            "innerHTML": 17,
+                            "eval()": 0,
+                            "location.href": 1,
+                            "localStorage": 0,
+                            "sessionStorage": 0,
+                            "document.cookie": 0
+                        },
+                        "total_matches": 18,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_6": {
+            "files": [
+                {
+                    "path": "/.git/HEAD",
+                    "url": "https://ivorysec.com/.git/HEAD",
+                    "status_code": 200,
+                    "content_type": "text/html",
+                    "content_length": 1359,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/.env",
+                    "url": "https://ivorysec.com/.env",
+                    "status_code": 403,
+                    "content_type": "text/html",
+                    "content_length": 1359,
+                    "accessible": false,
+                    "error": null
+                },
+                {
+                    "path": "/robots.txt",
+                    "url": "https://ivorysec.com/robots.txt",
+                    "status_code": 200,
+                    "content_type": "text/plain; charset=utf-8",
+                    "content_length": 2021,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/sitemap.xml",
+                    "url": "https://ivorysec.com/sitemap.xml",
+                    "status_code": 200,
+                    "content_type": "text/html",
+                    "content_length": 1359,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/security.txt",
+                    "url": "https://ivorysec.com/security.txt",
+                    "status_code": 200,
+                    "content_type": "text/html",
+                    "content_length": 1359,
+                    "accessible": true,
+                    "error": null
+                }
+            ]
+        },
+        "phase_7": {
+            "findings": [
+                {
+                    "id": "SEN-002",
+                    "title": "Potentially exposed Git metadata",
+                    "severity": "High",
+                    "category": "Sensitive File Exposure",
+                    "cwe": "CWE-538",
+                    "description": "The Git HEAD file is publicly accessible.",
+                    "evidence": "/.git/HEAD returned HTTP 200.",
+                    "impact": "Exposed Git metadata can disclose source-code repository information and may facilitate source exposure.",
+                    "remediation": "Remove the .git directory from the web root and deny web access to repository metadata.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-001",
+                    "title": "robots.txt is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Information Disclosure",
+                    "cwe": "CWE-200",
+                    "description": "The robots.txt file is publicly accessible.",
+                    "evidence": "/robots.txt returned HTTP 200.",
+                    "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+                    "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-002",
+                    "title": "sitemap.xml is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Information Disclosure",
+                    "cwe": "CWE-200",
+                    "description": "The sitemap is publicly accessible.",
+                    "evidence": "/sitemap.xml returned HTTP 200.",
+                    "impact": "The sitemap can reveal application URLs and site structure.",
+                    "remediation": "Ensure that published URLs are intended to be publicly discoverable.",
+                    "source": "Phase 6"
+                },
+                {
+                    "id": "INFO-003",
+                    "title": "security.txt is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Security Contact",
+                    "cwe": "CWE-200",
+                    "description": "A security.txt file is publicly accessible.",
+                    "evidence": "/security.txt returned HTTP 200.",
+                    "impact": "This is normally expected and can provide security-contact information.",
+                    "remediation": "Keep the security.txt information accurate and current.",
+                    "source": "Phase 6"
+                }
+            ],
+            "counts": {
+                "Critical": 0,
+                "High": 1,
+                "Medium": 0,
+                "Low": 0,
+                "Informational": 3
+            },
+            "total": 4
+        }
+    },
+    "findings": [
+        {
+            "id": "SEN-002",
+            "title": "Potentially exposed Git metadata",
+            "severity": "High",
+            "category": "Sensitive File Exposure",
+            "cwe": "CWE-538",
+            "description": "The Git HEAD file is publicly accessible.",
+            "evidence": "/.git/HEAD returned HTTP 200.",
+            "impact": "Exposed Git metadata can disclose source-code repository information and may facilitate source exposure.",
+            "remediation": "Remove the .git directory from the web root and deny web access to repository metadata.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-001",
+            "title": "robots.txt is publicly accessible",
+            "severity": "Informational",
+            "category": "Information Disclosure",
+            "cwe": "CWE-200",
+            "description": "The robots.txt file is publicly accessible.",
+            "evidence": "/robots.txt returned HTTP 200.",
+            "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+            "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-002",
+            "title": "sitemap.xml is publicly accessible",
+            "severity": "Informational",
+            "category": "Information Disclosure",
+            "cwe": "CWE-200",
+            "description": "The sitemap is publicly accessible.",
+            "evidence": "/sitemap.xml returned HTTP 200.",
+            "impact": "The sitemap can reveal application URLs and site structure.",
+            "remediation": "Ensure that published URLs are intended to be publicly discoverable.",
+            "source": "Phase 6"
+        },
+        {
+            "id": "INFO-003",
+            "title": "security.txt is publicly accessible",
+            "severity": "Informational",
+            "category": "Security Contact",
+            "cwe": "CWE-200",
+            "description": "A security.txt file is publicly accessible.",
+            "evidence": "/security.txt returned HTTP 200.",
+            "impact": "This is normally expected and can provide security-contact information.",
+            "remediation": "Keep the security.txt information accurate and current.",
+            "source": "Phase 6"
+        }
+    ],
+    "finding_summary": {
+        "total": 4,
+        "critical": 0,
+        "high": 1,
+        "medium": 0,
+        "low": 0,
+        "informational": 3
+    }
+}
