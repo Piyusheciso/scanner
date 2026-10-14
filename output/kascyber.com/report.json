@@ -1,0 +1,412 @@
+{
+    "scanner": {
+        "name": "Web Recon Scanner",
+        "version": "1.0",
+        "generated_at": "2026-08-21T10:49:06.906898+00:00"
+    },
+    "target": {
+        "original_url": "kascyber.com",
+        "normalized_url": "https://kascyber.com",
+        "scheme": "https",
+        "hostname": "kascyber.com",
+        "port": 443,
+        "ip_address": "172.67.150.224",
+        "dns_resolved": true
+    },
+    "phases": {
+        "phase_1": {
+            "target": {
+                "original_url": "kascyber.com",
+                "normalized_url": "https://kascyber.com",
+                "scheme": "https",
+                "hostname": "kascyber.com",
+                "port": 443,
+                "ip_address": "172.67.150.224",
+                "dns_resolved": true
+            }
+        },
+        "phase_2": {
+            "http": {
+                "requested_url": "http://kascyber.com",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://www.kascyber.com/",
+                "redirect_detected": true,
+                "redirect_count": 2,
+                "headers": {
+                    "Date": "Fri, 21 Aug 2026 10:46:38 GMT",
+                    "Content-Type": "text/html",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "last-modified": "Thu, 16 Jul 2026 13:33:33 GMT",
+                    "Cache-Control": "max-age=600",
+                    "expires": "Fri, 21 Aug 2026 10:56:38 GMT",
+                    "vary": "Accept-Encoding,User-Agent",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=PFiHLAjW7meD4QZldy8w9cFH0I5WSBKLwooJmaBjeGHw7LyQhAazMW9V4AzWYf1kNzCoj4ymKlbXOIV1%2Bz%2FQ2t4odryVLc4CxFyYjZqAHe9HuL6mIQ%2B0%2BZQfpVeuDssXwm1P\"}]}",
+                    "Server": "cloudflare",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2e90e1a5e8e52b7-SIN",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html",
+                "content_length": null,
+                "date": "Fri, 21 Aug 2026 10:46:38 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": false,
+                        "value": null,
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            },
+            "https": {
+                "requested_url": "https://kascyber.com",
+                "reachable": true,
+                "status_code": 200,
+                "reason": "OK",
+                "final_url": "https://www.kascyber.com/",
+                "redirect_detected": true,
+                "redirect_count": 1,
+                "headers": {
+                    "Date": "Fri, 21 Aug 2026 10:46:48 GMT",
+                    "Content-Type": "text/html",
+                    "Transfer-Encoding": "chunked",
+                    "Connection": "keep-alive",
+                    "last-modified": "Thu, 16 Jul 2026 13:33:33 GMT",
+                    "Cache-Control": "max-age=600",
+                    "expires": "Fri, 21 Aug 2026 10:56:48 GMT",
+                    "vary": "Accept-Encoding,User-Agent",
+                    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ljT0zuXY%2B3r5yUrDelkx%2F4XEhlmPryJqFXjlnhCGkwsSLU9dEZUDGMyfqNiyKxC1W0z2wLku2oJYdnPxD4nA8QxImlQ7GHH5CweFBEcpIcu0GkYDkS%2Fz%2BmcjDLVz8u959iat\"}]}",
+                    "Server": "cloudflare",
+                    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+                    "cf-cache-status": "DYNAMIC",
+                    "Content-Encoding": "zstd",
+                    "CF-RAY": "a2e90e56ba111f9f-SIN",
+                    "alt-svc": "h3=\":443\"; ma=86400"
+                },
+                "server": "cloudflare",
+                "content_type": "text/html",
+                "content_length": null,
+                "date": "Fri, 21 Aug 2026 10:46:48 GMT",
+                "cookies": [],
+                "security_headers": [
+                    {
+                        "name": "Content-Security-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "CSP helps control which resources a browser can load."
+                    },
+                    {
+                        "name": "Strict-Transport-Security",
+                        "present": false,
+                        "value": null,
+                        "description": "HSTS forces browsers to use HTTPS."
+                    },
+                    {
+                        "name": "X-Frame-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Helps prevent clickjacking through framing."
+                    },
+                    {
+                        "name": "X-Content-Type-Options",
+                        "present": false,
+                        "value": null,
+                        "description": "Prevents MIME-type sniffing."
+                    },
+                    {
+                        "name": "Referrer-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls how much referrer information browsers send."
+                    },
+                    {
+                        "name": "Permissions-Policy",
+                        "present": false,
+                        "value": null,
+                        "description": "Controls access to browser features and APIs."
+                    }
+                ],
+                "error": null
+            }
+        },
+        "phase_3": {
+            "whatweb": {
+                "available": false,
+                "executed": false,
+                "command": [
+                    "whatweb",
+                    "https://kascyber.com"
+                ],
+                "technologies": [],
+                "raw_output": "",
+                "error": "WhatWeb executable was not found in PATH.",
+                "return_code": null
+            },
+            "subdomains": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Users\\Admin\\Downloads\\subfinder_2.15.0_windows_amd64\\subfinder.EXE",
+                    "-d",
+                    "kascyber.com",
+                    "-silent"
+                ],
+                "subdomains": [
+                    "30days.kascyber.com",
+                    "30dayschallenge.kascyber.com",
+                    "msme.kascyber.com",
+                    "stage.kascyber.com",
+                    "www.30dayschallenge.kascyber.com",
+                    "www.kascyber.com",
+                    "www.stage.kascyber.com"
+                ],
+                "raw_output": "www.stage.kascyber.com\nwww.kascyber.com\n30days.kascyber.com\n30dayschallenge.kascyber.com\nwww.30dayschallenge.kascyber.com\nmsme.kascyber.com\nstage.kascyber.com\n",
+                "error": null,
+                "return_code": 0
+            },
+            "nmap": {
+                "available": true,
+                "executed": true,
+                "command": [
+                    "C:\\Program Files (x86)\\Nmap\\nmap.EXE",
+                    "-sV",
+                    "-Pn",
+                    "-p",
+                    "80,443",
+                    "kascyber.com"
+                ],
+                "ports": [
+                    {
+                        "port": 80,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "http",
+                        "version": "Cloudflare http proxy"
+                    },
+                    {
+                        "port": 443,
+                        "protocol": "tcp",
+                        "state": "open",
+                        "service": "ssl/http",
+                        "version": "Cloudflare http proxy"
+                    }
+                ],
+                "raw_output": "Starting Nmap 7.991 ( https://nmap.org ) at 2026-08-21 16:17 +0530\nNmap scan report for kascyber.com (104.21.0.104)\nHost is up (0.091s latency).\nOther addresses for kascyber.com (not scanned): 2606:4700:3037::6815:68 2606:4700:3034::ac43:96e0 172.67.150.224\n\nPORT    STATE SERVICE  VERSION\n80/tcp  open  http     Cloudflare http proxy\n443/tcp open  ssl/http Cloudflare http proxy\n\nService detection performed. Please report any incorrect results at https://nmap.org/submit/ .\nNmap done: 1 IP address (1 host up) scanned in 18.15 seconds\n\n[stderr]\nWarning: Hostname kascyber.com resolves to 4 IPs. Using 104.21.0.104.\n",
+                "error": null,
+                "return_code": 0
+            }
+        },
+        "phase_4": {
+            "homepage": {
+                "url": "https://kascyber.com",
+                "final_url": "https://www.kascyber.com/",
+                "status_code": 200,
+                "content_type": "text/html",
+                "content_length": 33108,
+                "html_file": "D:\\Scanner\\output\\kascyber.com\\homepage\\homepage.html",
+                "downloaded": true,
+                "error": null
+            },
+            "javascript": {
+                "urls": [
+                    "https://www.kascyber.com/assets/js/main.js",
+                    "https://www.kascyber.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                ],
+                "files": [
+                    {
+                        "url": "https://www.kascyber.com/assets/js/main.js",
+                        "local_file": "D:\\Scanner\\output\\kascyber.com\\js\\main_70b365cb.js",
+                        "status_code": 200,
+                        "content_length": 3409,
+                        "downloaded": true,
+                        "error": null
+                    },
+                    {
+                        "url": "https://www.kascyber.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+                        "local_file": "D:\\Scanner\\output\\kascyber.com\\js\\email-decode.min_48fad248.js",
+                        "status_code": 200,
+                        "content_length": 1239,
+                        "downloaded": true,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_5": {
+            "javascript_directory": "D:\\Scanner\\output\\kascyber.com\\js",
+            "analysis": {
+                "files_analyzed": 2,
+                "files_failed": 0,
+                "totals": {
+                    "innerHTML": 1,
+                    "eval()": 0,
+                    "location.href": 0,
+                    "localStorage": 2,
+                    "sessionStorage": 0,
+                    "document.cookie": 0
+                },
+                "files": [
+                    {
+                        "file": "D:\\Scanner\\output\\kascyber.com\\js\\email-decode.min_48fad248.js",
+                        "patterns": {
+                            "innerHTML": 1,
+                            "eval()": 0,
+                            "location.href": 0,
+                            "localStorage": 0,
+                            "sessionStorage": 0,
+                            "document.cookie": 0
+                        },
+                        "total_matches": 1,
+                        "error": null
+                    },
+                    {
+                        "file": "D:\\Scanner\\output\\kascyber.com\\js\\main_70b365cb.js",
+                        "patterns": {
+                            "innerHTML": 0,
+                            "eval()": 0,
+                            "location.href": 0,
+                            "localStorage": 2,
+                            "sessionStorage": 0,
+                            "document.cookie": 0
+                        },
+                        "total_matches": 2,
+                        "error": null
+                    }
+                ]
+            }
+        },
+        "phase_6": {
+            "files": [
+                {
+                    "path": "/.git/HEAD",
+                    "url": "https://kascyber.com/.git/HEAD",
+                    "status_code": 404,
+                    "content_type": "text/html; charset=iso-8859-1",
+                    "content_length": 315,
+                    "accessible": false,
+                    "error": null
+                },
+                {
+                    "path": "/.env",
+                    "url": "https://kascyber.com/.env",
+                    "status_code": 403,
+                    "content_type": "text/html; charset=iso-8859-1",
+                    "content_length": 318,
+                    "accessible": false,
+                    "error": null
+                },
+                {
+                    "path": "/robots.txt",
+                    "url": "https://kascyber.com/robots.txt",
+                    "status_code": 200,
+                    "content_type": "text/plain",
+                    "content_length": 185,
+                    "accessible": true,
+                    "error": null
+                },
+                {
+                    "path": "/sitemap.xml",
+                    "url": "https://kascyber.com/sitemap.xml",
+                    "status_code": 404,
+                    "content_type": "text/html; charset=iso-8859-1",
+                    "content_length": 315,
+                    "accessible": false,
+                    "error": null
+                },
+                {
+                    "path": "/.well-known/security.txt",
+                    "url": "https://kascyber.com/.well-known/security.txt",
+                    "status_code": 404,
+                    "content_type": "text/html; charset=iso-8859-1",
+                    "content_length": 315,
+                    "accessible": false,
+                    "error": null
+                }
+            ]
+        },
+        "phase_7": {
+            "findings": [
+                {
+                    "id": "INFO-001",
+                    "title": "robots.txt is publicly accessible",
+                    "severity": "Informational",
+                    "category": "Information Disclosure",
+                    "cwe": "CWE-200",
+                    "description": "The robots.txt file is publicly accessible.",
+                    "evidence": "/robots.txt returned HTTP 200.",
+                    "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+                    "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+                    "source": "Phase 6"
+                }
+            ],
+            "counts": {
+                "Critical": 0,
+                "High": 0,
+                "Medium": 0,
+                "Low": 0,
+                "Informational": 1
+            },
+            "total": 1
+        }
+    },
+    "findings": [
+        {
+            "id": "INFO-001",
+            "title": "robots.txt is publicly accessible",
+            "severity": "Informational",
+            "category": "Information Disclosure",
+            "cwe": "CWE-200",
+            "description": "The robots.txt file is publicly accessible.",
+            "evidence": "/robots.txt returned HTTP 200.",
+            "impact": "robots.txt may disclose paths that the site owner does not want indexed.",
+            "remediation": "Review entries in robots.txt and avoid using it as an access-control mechanism.",
+            "source": "Phase 6"
+        }
+    ],
+    "finding_summary": {
+        "total": 1,
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "informational": 1
+    }
+}

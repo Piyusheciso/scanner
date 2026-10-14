@@ -306,3 +306,22 @@ when serializing dict item 'phases'
 2026-08-17 16:12:41,703 | INFO | Phase 7 completed: findings=5
 2026-08-17 16:12:41,711 | INFO | Phase 8 completed.
 2026-08-17 16:12:41,712 | INFO | Scanner completed successfully.
+2026-08-21 16:16:14,683 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-21 16:16:25,440 | INFO | Web Recon Scanner 1.0.0 started
+2026-08-21 16:16:25,441 | INFO | Target supplied: kascyber.com
+2026-08-21 16:16:25,477 | INFO | Step 1 completed: https://kascyber.com
+2026-08-21 16:16:25,478 | INFO | Output directory: D:\Scanner\output\kascyber.com
+2026-08-21 16:16:49,159 | INFO | http: reachable=True status=200 final_url=https://www.kascyber.com/ redirects=2
+2026-08-21 16:16:49,160 | INFO | https: reachable=True status=200 final_url=https://www.kascyber.com/ redirects=1
+2026-08-21 16:16:49,161 | INFO | Step 2 completed.
+2026-08-21 16:16:49,162 | INFO | Starting WhatWeb scan.
+2026-08-21 16:16:49,165 | INFO | Starting Subfinder scan.
+2026-08-21 16:17:07,671 | INFO | Starting Nmap scan.
+2026-08-21 16:17:26,364 | INFO | Phase 3 completed successfully.
+2026-08-21 16:17:51,562 | INFO | Phase 4 completed: JS URLs=2 downloaded=2
+2026-08-21 16:17:51,697 | INFO | Phase 5 completed: files=2 failed=0
+2026-08-21 16:19:06,904 | INFO | Phase 6 completed: checked=5
+2026-08-21 16:19:06,905 | INFO | Finding engine generated 1 findings.
+2026-08-21 16:19:06,906 | INFO | Phase 7 completed: findings=1
+2026-08-21 16:19:06,913 | INFO | Phase 8 completed.
+2026-08-21 16:19:06,913 | INFO | Scanner completed successfully.
